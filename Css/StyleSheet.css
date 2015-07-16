@@ -1,0 +1,128 @@
+﻿body
+        {
+            background-color: #889764
+        }
+.header-shadow
+        {
+            width: 100%;
+            height: 170px;
+        }
+.centemenu 
+        {
+            width: 750px;
+            margin-left: auto;
+            margin-right: auto;
+            height: auto;
+            margin-top: 15px;
+            text-align: center;
+        }
+#menuBar {
+
+            margin: 0;
+            padding: 0;
+            display: table;
+            background-color: #b80113; 
+        }
+
+#menuBar div {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            position: relative;
+            float: left;
+            border-right: 1px #AAAAAA solid;
+        }
+
+#menuBar div a
+        {
+            display: block;
+            margin: 0;
+            padding: 5px 15px;
+            color: #FFFFFA;
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+#menuBar div a:hover 
+        {
+            background: #5555FF;
+        }
+#menuBar span
+        {
+            margin: 1px;
+            padding: 0;
+            position: absolute;
+            visibility: hidden;
+            white-space: nowrap;
+            display: table;
+            z-index: 3;
+        }
+#menuBar span a
+        {
+            margin: 0;
+            padding: 2px 10px;
+            background: #3333AA;
+            color: #FFFFFA;
+            font-size:90%;
+            text-align: left;
+            text-decoration: none;
+            font-weight: normal;
+        }
+#menuBar span a:hover
+        {
+            background: #5555FF;
+        }
+.RowStyle 
+        {
+            height: 50px;
+        }
+.AlternateRowStyle
+        {
+            height: 50px;
+        }
+.cal .ajax__calendar_header
+        {
+              background-color: #FFE7B3;
+        }
+.cal .ajax__calendar_container
+        {
+                background-color: Gray; 
+        }    
+.container
+        {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        margin-top: -50px;
+        margin-left: -100px;
+
+        }
+#SpinnerContainer
+        {
+            position: absolute;    
+            display: none;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            background-color: #C0C0C0;
+            opacity:0.4;
+            filter:alpha(opacity=40); /* For IE8 and earlier */
+            z-index: 1000; /* Important to set this */
+        } 
+#Spinner
+        { 
+            position: absolute;
+            display: none;
+            width:50px;
+            height: 50px;
+            top: 48%;
+            left: 48%;            
+            z-index:1001;
+            overflow: auto;
+        }
+#Navigation
+        {
+            text-align: justify;
+        }
